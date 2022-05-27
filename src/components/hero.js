@@ -8,7 +8,7 @@ function Hero() {
             <div className='italic py-5 md:pl-[10%]'>
                 <div className="text-2xl font-bold">Know your <br></br>Helmet</div>
                 <div className='mt-4'>Find your perfect helmet today <br></br>in HELMETCO</div>
-                <Link to="/question">
+                <Link to="/question/0">
                     <button className='p-3 mt-4 italic font-bold bg-[#ff9200]'>Start Now</button>
                 </Link>
             </div>

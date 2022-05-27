@@ -13,3 +13,17 @@
 body {
   font-family: var(--primary-font);
 }
+
+.question {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+.clipboard {
+  opacity: 0;
+}
+
+.opacity {
+  opacity: 1;
+}
