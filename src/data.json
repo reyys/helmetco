@@ -3,7 +3,7 @@
     "question": "What do you use motorcycle for?",
     "a": "Commute in the city",
     "b": "Travelling",
-    "targeta": "./question/1",
+    "targeta": "/question/1",
     "targetb": "/question/2"
   },
   {
