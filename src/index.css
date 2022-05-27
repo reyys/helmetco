@@ -6,6 +6,8 @@
 
 :root {
   --primary-font: "Inter", sans-serif;
+  --primary-color: #000000;
+  --secondary-color: #ff9200;
 }
 
 body {
