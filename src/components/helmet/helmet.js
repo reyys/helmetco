@@ -1,7 +1,6 @@
 import React from 'react'
 import dataHelmet from '../../helmet.js'
 import { useParams } from 'react-router-dom'
-import copyIcon from '../../assets/copy.png'
 
 
 function Helmet() {
@@ -17,14 +16,14 @@ function Helmet() {
                     <div className='font-medium mt-12'>Claim your <span className='font-bold'>20% discount</span><br></br>with this promo code</div>
                     <button id="copytoclip" className='button-copy flex relative justify-center items-center font-bold py-5 w-full mt-12 bg-[#ff9200] uppercase hover:scale-y-110 transition-all'>
                         <span>{helmet.promo}</span>
-                        <img className='ml-[15px] max-w-[30px]' src={copyIcon} alt="copy" />
-                        <span className='clipboard transition-all absolute right-[-50px] top-[-30px] p-3 rounded-lg bg-black text-white'>Copied</span>
                     </button>
                 </div>
                 <img className="max-w-[300px]" src={helmet.imageurl} alt="" />
             </div>
         )
     }
+
+
 
     return (
         renderHelmet()
